@@ -4,7 +4,7 @@
 
 def func(n) :
     if n == 0 or n == 1:
-        return f '{n}'
+        return f'{n}'
     return func(n//2) + f'{n%2}'
     
 x = int(input("Введите десятичное число: "))
