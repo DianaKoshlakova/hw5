@@ -10,7 +10,7 @@
 def st(a, b) :
     if b == 0 :
         return 1
-    return a**b
+    return a * st(a, b-1)
 
 A = int(input("Введите число A: "))
 B = int(input("Введите число В: "))
